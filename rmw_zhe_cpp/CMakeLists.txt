@@ -51,7 +51,7 @@ include_directories(include)
 
 ###??
 include_directories(${Zhe_INCLUDE_DIR})
-link_directories(/Users/erik/adlink/zhe/lib)
+link_directories(${Zhe_LIBRARY_RELEASE})
 
 add_library(rmw_zhe_cpp
   src/namespace_prefix.cpp
